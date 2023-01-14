@@ -1,0 +1,19 @@
+ /* work sans google font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --work-font : font-family: 'Work Sans', sans-serif;
+    --black : #000;
+    --white : #fff;
+    --section-bg-color: #FFF4E7;
+    --main-color: #FF900E;
+    --heading-color : #131313;
+    --menu-text-color: #424242;
+    --paragraph-color : #727272;
+}
