@@ -41,6 +41,7 @@
      font-size: 16px;
      font-weight: 400;
      color: var(--paragraph-color);
+     margin: 1.3rem 0px;
  }
 
  .main-button {
@@ -57,6 +58,7 @@
     font-size: 45px;
     font-weight: 700;
     color: var(--heading-color);
+    font-family: var(--work-font);
  }
 
  /*-----------------------
@@ -131,6 +133,76 @@ banner-section style start here
  .quick-list-article {
      width: 36%;
  }
- .quick-list-pra{
-    margin: 20px 0px;
+
+
+ /*--------------------------------- 
+    Features section style start here  
+ -----------------------------------*/
+
+ .features{
+    display: flex;
+ }
+
+ .features-article{
+    width: 50%;
+ }
+ .feature-heading{
+    border-left: 5px solid var(--main-color);
+    padding: 24px;
+ }
+
+ .feature-top-text{
+    width: 80%;
+ }
+
+ .feature-text{
+    width: 80%;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 1.4rem 1.6rem;
+    margin-top: 1.4rem;
+    border-radius: 8px;
+
+ }
+ 
+ .feature-text > h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--heading-color);
+ }
+ 
+ .feature-text >p{
+    color: var(--paragraph-color);
+    margin-top: 10px;
+ }
+
+ .features-img{
+    width: 50%;
+ }
+ .features-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .feature-button{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: -3rem;
+    margin-left: -5rem;
+ }
+
+ /* ---------------------------
+ facts section style start here
+ ------------------------------  */
+ 
+ 
+ 
+ .facts{
+    display: flex;
+    /* padding: 1.8rem; */
+    justify-content: space-around;
+ }
+
+ .fact-item{
+    border: 1px solid red;
  }
