@@ -72,6 +72,7 @@
     color: var(--white);
     font-size: 1.25rem;
     font-weight: 600;
+    transition: 1s ;
  }
  .btn-primary:hover{
     border: 2px solid var(--main-color);
@@ -193,10 +194,11 @@ quick list section style start here
     font-size: 16px;
     color: var(--paragraph-color);
  }
- .features-images img{
+ .features-images img {
     width: 100%;
     height: 100%;
- }
+    object-fit: cover;
+}
 
  .btn-position{
     z-index: 2;
@@ -325,9 +327,10 @@ quick list section style start here
     .btn-position {
         margin-top: 20px;
         margin-left: 0px;
+        font-size: 18px;
     }
     .btn-bold {
-        font-size: 30px;
+        font-size: 22px;
     }
     .facts{
         margin-top: 20px;
