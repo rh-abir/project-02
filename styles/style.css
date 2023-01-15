@@ -395,7 +395,7 @@ quick list section style start here
       margin-top: 3rem;
   }
    .my-form input[type="submit"] {
-      width: 40%;
+      width: 50%;
    }
     .small-device{
       display: none;
