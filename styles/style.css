@@ -206,7 +206,7 @@ quick list section style start here
  }
  .btn-position {
     font-size: 25px;
-    font-weight: 500px;
+    font-weight: 500;
     text-align: center;
  }
 
@@ -270,3 +270,75 @@ quick list section style start here
     font-size: 20px;
     color: var(--menu-text-color);
   }
+
+  /*----------------------------
+   responsive design start here 
+   ----------------------------- */
+
+  @media only screen and (max-width: 576px) {
+    .nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav > ul {
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .nav > ul > li{
+        font-size: 25px;
+    }
+
+    .section-padding {
+        padding: 0rem 0;
+    }
+    .section-margin {
+        margin: 20px 0px;
+    }
+    .banner-text h2 {
+        font-size: 2rem;
+    }
+    .paragraph-text {
+        margin: 15px 0px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .banner-text {
+        margin: 0px 0px 30px 0;
+    }
+
+    .quick-lists,.features  {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .quick-list-image {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+  
+    .contents .content {
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+    }
+    .features-images img {
+        object-fit: cover;
+    }
+
+    .btn-position {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .btn-bold {
+        font-size: 30px;
+    }
+    .facts {
+        margin-top: 30px;
+    }
+    .sponsors-logo {
+        margin-top: 15px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+  }
+
+
