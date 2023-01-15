@@ -161,6 +161,7 @@ quick list section style start here
 
  .features{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 5rem;
 
@@ -212,4 +213,31 @@ quick list section style start here
  .btn-bold{
     font-size: 60px;
     font-weight: 700;
+ }
+
+ /* -----------------------------
+ Facts section style start here  
+ --------------------------------*/
+
+ .facts{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ 
+ .facts .facts-item{
+    color: var(--menu-text-color);
+    /* background-color: red; */
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.5s;
+ }
+ .facts .facts-item:hover{    
+    border: 2px solid salmon;
+    background-color: var(--menu-text-color);
+    color: var(--white);
+    transform: rotate(360deg) scale(1.5);
  }
