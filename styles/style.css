@@ -72,7 +72,6 @@
     color: var(--white);
     font-size: 1.25rem;
     font-weight: 600;
-    transition: 0.4s ;
  }
  .btn-primary:hover{
     border: 2px solid var(--main-color);
@@ -340,7 +339,7 @@ quick list section style start here
         padding: 0rem 0;
     }
     .section-margin {
-        margin: 20px 0px;
+        margin: 60px 0px;
     }
     .banner-text h2 {
         font-size: 2rem;
