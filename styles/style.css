@@ -24,7 +24,132 @@
      --paragraph-color: #727272;
  }
 
+ .body{
+    font-family: var(--work-font);
+ }
+ .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 2rem;
+    margin: 0 auto;
+    
+ }
  .bg-color {
      background-color: var(--section-bg-color);
 
  }
+ .section-padding{
+    padding: 3rem 0;
+ }
+ .section-margin{
+    margin: 70px 0px;
+ }
+
+ .section-title{
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--heading-color);
+
+ }
+
+ .text-center{
+    text-align: center;
+ }
+
+ .paragraph-text{
+    margin: 24px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    line-height: 1.6rem;
+ }
+
+ .btn-primary{
+    background-color: var(--main-color);
+    padding: 15px 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 600;
+ }
+ .btn-primary:hover{
+    border: 2px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+    transition: 1s;
+ }
+ /*--------------------------
+  nav area style start here  
+ ----------------------------*/
+
+
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3.2rem 0;
+ }
+ .nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 3.4rem;
+ }
+
+ .log-area h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--heading-color);
+ }
+
+ .nav > ul > li{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--menu-text-color);
+ }
+
+ /*-------------------------------
+  banner section style start here 
+  -------------------------------- */
+
+  .banner-text{
+    margin:0px 0px 50px 0;
+  }
+
+  .banner-text h2{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .banner-image img{
+    width: 100%;
+    height: 100%;
+  }
+
+/*
+----------------------------------
+quick list section style start here 
+-----------------------------------*/
+
+.quick-lists{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+.quick-lists > div{
+    flex: 1;
+}
+
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quick-list-image img{
+    width: 100%;
+    height: 100%;
+}
