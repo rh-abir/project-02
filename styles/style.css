@@ -342,7 +342,7 @@ quick list section style start here
         margin: 60px 0px;
     }
     .banner-text h2 {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     .paragraph-text {
         margin: 15px 0px;
@@ -371,7 +371,9 @@ quick list section style start here
     .features-images img {
         object-fit: cover;
     }
-
+    .section-title {
+      font-size: 40px;
+  }
     .btn-position {
         margin-top: 20px;
         margin-left: 0px;
