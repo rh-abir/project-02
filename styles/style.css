@@ -221,11 +221,10 @@ quick list section style start here
 
  .facts{
     margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 2rem;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13rem;
+    
  }
  
  .facts .facts-item{
@@ -330,9 +329,12 @@ quick list section style start here
     .btn-bold {
         font-size: 30px;
     }
-    .facts {
-        margin-top: 30px;
-    }
+    .facts{
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        
+     }
     .sponsors-logo {
         margin-top: 15px;
         gap: 30px;
